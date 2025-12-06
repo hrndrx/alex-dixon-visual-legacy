@@ -34,22 +34,20 @@ const Portfolio = () => {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {images.map((image, index) => (
             <div
               key={index}
-              className={`gallery-item group relative ${
-                index === 0 ? "sm:col-span-2 sm:row-span-2" : ""
-              }`}
+              className="gallery-item group relative"
             >
-              <div className={`relative overflow-hidden ${index === 0 ? "aspect-square" : "aspect-[3/4]"}`}>
+              <div className="relative aspect-[4/5] overflow-hidden">
                 <img
                   src={image.src}
                   alt={image.alt}
                   className="h-full w-full object-cover"
                 />
                 {/* Overlay */}
-                <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-background/90 via-background/20 to-transparent p-6 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-background/90 via-background/20 to-transparent p-4 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                   <span className="text-xs uppercase tracking-[0.2em] text-primary">
                     {image.category}
                   </span>
