@@ -1,7 +1,10 @@
+import { VintageFlourish } from "./VintageFlourish";
+
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 lg:py-32">
+    <section id="contact" className="relative py-24 lg:py-32">
       <div className="container mx-auto px-6 text-center lg:px-12">
+        <VintageFlourish variant="divider" className="mb-6" />
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-primary">
           Contact
         </p>
@@ -11,6 +14,8 @@ const Contact = () => {
         <p className="mx-auto mt-6 max-w-lg text-muted-foreground">
           Available for commercial campaigns, editorial features, and exclusive collaborations.
         </p>
+
+        <VintageFlourish className="mt-8" />
 
         <div className="mt-12 flex flex-col items-center gap-6">
           <a

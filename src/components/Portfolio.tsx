@@ -11,8 +11,8 @@ import alexD34 from "@/assets/alex-d34.jpg";
 import alexD36 from "@/assets/alex-d36.jpg";
 import alexD40 from "@/assets/alex-d40.jpg";
 import alexD28 from "@/assets/alex-d28.jpg";
-import alexD29 from "@/assets/alex-d29.jpg";
 import alexD30 from "@/assets/alex-d30.jpg";
+import { VintageFlourish } from "./VintageFlourish";
 
 const images = [
   { src: alexBW, alt: "Portrait in Black & White", category: "Editorial" },
@@ -28,7 +28,6 @@ const images = [
   { src: alexD36, alt: "Vest & Jacket", category: "Corporate" },
   { src: alexD40, alt: "Warm Portrait", category: "Headshot" },
   { src: alexD28, alt: "Urban Stoop", category: "Street" },
-  { src: alexD29, alt: "City Steps", category: "Lifestyle" },
   { src: alexD30, alt: "Olive Casual", category: "Lifestyle" },
 ];
 
@@ -38,6 +37,7 @@ const Portfolio = () => {
       <div className="container mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="mb-16 text-center">
+          <VintageFlourish variant="divider" className="mb-6" />
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-primary">
             Portfolio
           </p>
@@ -47,6 +47,7 @@ const Portfolio = () => {
           <p className="mx-auto mt-6 max-w-lg text-muted-foreground">
             A curated collection showcasing range, versatility, and the art of visual storytelling.
           </p>
+          <VintageFlourish className="mt-8" />
         </div>
 
         {/* Gallery Grid */}
