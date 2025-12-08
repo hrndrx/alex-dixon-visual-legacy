@@ -1,19 +1,35 @@
 import alexBW from "@/assets/alex-portrait-bw.jpg";
-import alexCasual1 from "@/assets/alex-casual-1.jpg";
-import alexCasual2 from "@/assets/alex-casual-2.jpg";
-import alexOutdoor1 from "@/assets/alex-outdoor-1.jpg";
-import alexOutdoor2 from "@/assets/alex-outdoor-2.jpg";
 import alexFormal2 from "@/assets/alex-formal-2.jpg";
+import alexOutdoor1 from "@/assets/alex-outdoor-1.jpg";
+import alexCasual2 from "@/assets/alex-casual-2.jpg";
+import alexOutdoor2 from "@/assets/alex-outdoor-2.jpg";
 import alexFormal3 from "@/assets/alex-formal-3.jpg";
+import alexD31 from "@/assets/alex-d31.jpg";
+import alexD32 from "@/assets/alex-d32.jpg";
+import alexD33 from "@/assets/alex-d33.jpg";
+import alexD34 from "@/assets/alex-d34.jpg";
+import alexD36 from "@/assets/alex-d36.jpg";
+import alexD40 from "@/assets/alex-d40.jpg";
+import alexD28 from "@/assets/alex-d28.jpg";
+import alexD29 from "@/assets/alex-d29.jpg";
+import alexD30 from "@/assets/alex-d30.jpg";
 
 const images = [
   { src: alexBW, alt: "Portrait in Black & White", category: "Editorial" },
   { src: alexFormal2, alt: "Executive Portrait", category: "Corporate" },
-  { src: alexCasual1, alt: "Casual Studio", category: "Lifestyle" },
   { src: alexOutdoor1, alt: "Urban Outdoor", category: "Street" },
   { src: alexCasual2, alt: "Athleisure", category: "Commercial" },
   { src: alexOutdoor2, alt: "Natural Light Portrait", category: "Lifestyle" },
   { src: alexFormal3, alt: "Three Piece Suit", category: "Fashion" },
+  { src: alexD31, alt: "Pinstripe Elegance", category: "Corporate" },
+  { src: alexD32, alt: "Studio Full Length", category: "Fashion" },
+  { src: alexD33, alt: "Confident Pose", category: "Editorial" },
+  { src: alexD34, alt: "Dynamic Movement", category: "Fashion" },
+  { src: alexD36, alt: "Vest & Jacket", category: "Corporate" },
+  { src: alexD40, alt: "Warm Portrait", category: "Headshot" },
+  { src: alexD28, alt: "Urban Stoop", category: "Street" },
+  { src: alexD29, alt: "City Steps", category: "Lifestyle" },
+  { src: alexD30, alt: "Olive Casual", category: "Lifestyle" },
 ];
 
 const Portfolio = () => {
