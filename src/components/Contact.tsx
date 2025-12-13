@@ -19,10 +19,10 @@ const Contact = () => {
 
         <div className="mt-12 flex flex-col items-center gap-6">
           <a
-            href="mailto:contact@alexdixon.com"
+            href="mailto:aldnse@gmail.com"
             className="font-display text-2xl text-foreground transition-colors hover:text-primary md:text-3xl"
           >
-            contact@alexdixon.com
+            aldnse@gmail.com
           </a>
           
           <div className="flex items-center gap-8">
