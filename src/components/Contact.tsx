@@ -17,23 +17,21 @@ const Contact = () => {
 
         <VintageFlourish className="mt-8" />
 
-        <div className="mt-12 flex flex-col items-center gap-8">
+        <div className="mt-12 flex flex-col items-center gap-6">
           <a
             href="mailto:alexdixonssebalijja@email.com"
-            className="group flex items-center gap-3 font-display text-xl text-foreground transition-colors hover:text-primary md:text-2xl"
+            className="font-display text-2xl text-foreground transition-colors hover:text-primary md:text-3xl"
           >
-            <span className="text-primary">✉</span>
-            alexdixonssebalijja@email.com
+            Send me an email
           </a>
           
           <a
             href="https://wa.me/16177060043"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center gap-3 font-display text-xl text-foreground transition-colors hover:text-primary md:text-2xl"
+            className="font-display text-2xl text-foreground transition-colors hover:text-primary md:text-3xl"
           >
-            <span className="text-primary">📱</span>
-            +1 617 706 0043
+            Send me a WhatsApp message
           </a>
         </div>
       </div>
