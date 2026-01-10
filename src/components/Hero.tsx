@@ -1,4 +1,4 @@
-import heroImage from "@/assets/alex-hero.jpg";
+import heroImage from "@/assets/alex-d39.jpg";
 import { VintageBorder } from "./VintageFlourish";
 
 const Hero = () => {
