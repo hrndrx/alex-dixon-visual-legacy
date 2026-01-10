@@ -9,7 +9,8 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Alex Dixon SSebalijja - Professional Portrait"
-          className="h-full w-full object-cover object-top"
+          className="h-full w-full object-cover"
+          style={{ objectPosition: 'center 15%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-transparent" />
       </div>
