@@ -9,7 +9,7 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Alex Dixon SSebalijja - Professional Portrait"
-          className="h-full w-full object-contain object-right"
+          className="h-full w-full object-contain object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-transparent" />
       </div>
