@@ -18,12 +18,22 @@ const Header = () => {
           </li>
         </ul>
         
-        <a 
-          href="#contact" 
-          className="text-sm uppercase tracking-[0.15em] text-primary transition-colors hover:text-foreground"
-        >
-          Inquire
-        </a>
+        <div className="flex items-center gap-6">
+          <a 
+            href="https://alexdixonssebalijja.youcanbook.me" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm uppercase tracking-[0.15em] text-foreground transition-colors hover:text-primary"
+          >
+            Book Me
+          </a>
+          <a 
+            href="#contact" 
+            className="text-sm uppercase tracking-[0.15em] text-primary transition-colors hover:text-foreground"
+          >
+            Inquire
+          </a>
+        </div>
       </nav>
     </header>
   );

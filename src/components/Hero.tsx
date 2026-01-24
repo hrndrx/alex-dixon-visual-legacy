@@ -59,7 +59,9 @@ const Hero = () => {
             <Instagram className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
           </a>
           <a 
-            href="#" 
+            href="https://www.facebook.com/share/1FnY45pmRe/" 
+            target="_blank" 
+            rel="noopener noreferrer"
             className="group flex h-12 w-12 items-center justify-center rounded-full border border-primary/30 text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground"
           >
             <Facebook className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
