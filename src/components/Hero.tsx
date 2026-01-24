@@ -1,5 +1,6 @@
-import heroImage from "@/assets/alex-d39.jpg";
+import heroImage from "@/assets/alex-hero-new.jpg";
 import { VintageBorder } from "./VintageFlourish";
+import { Instagram, Facebook, Twitter } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -46,11 +47,29 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
+      {/* Social Media Icons */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
-        <div className="flex flex-col items-center gap-2 text-muted-foreground">
-          <span className="text-xs uppercase tracking-[0.2em]">Scroll</span>
-          <div className="h-12 w-px bg-gradient-to-b from-muted-foreground to-transparent" />
+        <div className="flex items-center gap-6">
+          <a 
+            href="https://www.instagram.com/alexdixonssebalijja?utm_source=qr&igsh=N2gxc2x5Z3Rta2gzIg" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group flex h-12 w-12 items-center justify-center rounded-full border border-primary/30 text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground"
+          >
+            <Instagram className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
+          </a>
+          <a 
+            href="#" 
+            className="group flex h-12 w-12 items-center justify-center rounded-full border border-primary/30 text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground"
+          >
+            <Facebook className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
+          </a>
+          <a 
+            href="#" 
+            className="group flex h-12 w-12 items-center justify-center rounded-full border border-primary/30 text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground"
+          >
+            <Twitter className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
+          </a>
         </div>
       </div>
     </section>
