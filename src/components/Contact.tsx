@@ -1,6 +1,17 @@
 import { VintageFlourish } from "./VintageFlourish";
 
 const Contact = () => {
+  const handleEmail = () => {
+    const u = ["alex", "dixon", "ssebalijja"].join("");
+    const d = ["gmail", "com"].join(".");
+    window.location.href = `mailto:${u}@${d}`;
+  };
+
+  const handleWhatsApp = () => {
+    const parts = ["161", "770", "600", "43"];
+    window.open(`https://wa.me/${parts.join("")}`, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <section id="contact" className="relative py-24 lg:py-32">
       <div className="container mx-auto px-6 text-center lg:px-12">
@@ -18,21 +29,19 @@ const Contact = () => {
         <VintageFlourish className="mt-8" />
 
         <div className="mt-12 flex flex-col items-center gap-6">
-          <a
-            href="mailto:alexdixonssebalijja@email.com"
-            className="font-display text-2xl text-foreground transition-colors hover:text-primary md:text-3xl"
+          <button
+            onClick={handleEmail}
+            className="font-display text-2xl text-foreground transition-colors hover:text-primary md:text-3xl cursor-pointer"
           >
             Send me an email
-          </a>
+          </button>
           
-          <a
-            href="https://wa.me/16177060043"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-display text-2xl text-foreground transition-colors hover:text-primary md:text-3xl"
+          <button
+            onClick={handleWhatsApp}
+            className="font-display text-2xl text-foreground transition-colors hover:text-primary md:text-3xl cursor-pointer"
           >
             Send me a WhatsApp message
-          </a>
+          </button>
         </div>
       </div>
     </section>
